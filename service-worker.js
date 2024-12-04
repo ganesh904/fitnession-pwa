@@ -4,8 +4,8 @@ const urlsToCache = [
   '/index.html',
   '/styles.css',
   '/script.js',
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png'
+  '/icons/dumbbell.png',
+  '/icons/yoga-pose.png'
 ];
 
 // Install Service Worker
@@ -39,5 +39,8 @@ self.addEventListener('activate', event => {
         })
       );
     })
+
+    
   );
 });
+
